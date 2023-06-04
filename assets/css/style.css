@@ -899,12 +899,12 @@ main {
  }
  
  .Tools-item {
-   min-width: 25%;
+   min-width: 15%;
    scroll-snap-align: start;
  }
  
  .Tools-item img {
-   width: 100%;
+   width: 90%;
    filter: grayscale(1);
    transition: var(--transition-1);
  }
@@ -1933,6 +1933,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   line-height: 40px;
   border-radius: 25px;
   background-color: #e4bd75;
+  margin-bottom: 8px;
 }
 
 .chip img {
